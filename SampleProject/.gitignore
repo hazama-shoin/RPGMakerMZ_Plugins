@@ -83,6 +83,7 @@ Temporary Items
 /save/
 
 /js/*.js
+!/js/plugins.js
 /js/libs/
 /js/plugins/EventLabel.js
 /js/plugins/MessageWindowPopup.js

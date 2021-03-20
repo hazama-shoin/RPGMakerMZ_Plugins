@@ -8,44 +8,45 @@
 
 | プラグイン名            | 最新Ver | 公開日        | 更新日        | DL                                                                                                                           |
 |:-----------------:|:-----:|:----------:|:----------:|:----------------------------------------------------------------------------------------------------------------------------:|
-| ウィンドウスキン切り替えプラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/plugins/WindowSkinSwitcher.js)     |
-| 名前ウィンドウの位置移動プラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/plugins/NameBoxPositionChanger.js) |
-| タイトル画面項目非表示化プラグイン | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/plugins/TitleItemEraser.js)        |
-| オプション項目非表示化プラグイン  | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/plugins/OptionItemEraser.js)       |
-| 簡易ガチャプラグイン        | 1.0.0 | 2021/03/20 | -          | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/plugins/LotteryGenerator.js)       |
+| ウィンドウスキン切り替えプラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/WindowSkinSwitcher.js)     |
+| 名前ウィンドウの位置移動プラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/NameBoxPositionChanger.js) |
+| タイトル画面項目非表示化プラグイン | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/TitleItemEraser.js)        |
+| オプション項目非表示化プラグイン  | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/OptionItemEraser.js)       |
+| 簡易ガチャプラグイン        | 1.0.0 | 2021/03/20 | -          | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/LotteryGenerator.js)       |
 
 
 ## 利用規約
 
-上記「プラグイン一覧」に含まれるプラグインは全て[MITライセンス](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/LICENSE.txt)です。  
+上記「プラグイン一覧」に含まれるプラグインは全て[MITライセンス](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/LICENSE.ja.txt)です。  
 商用/非商用問わず報告なしで自由にご利用いただけます。
 
 
 ## サンプルプロジェクトの使い方
 
-[SampleProject](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/SampleProject/)以下のファイルをRPGツクールMZの新規プロジェクトに上書きすることで、イベントやプラグインの設定内容などを確認いただくことが可能ですが、サンプルゲームと同様の動作をさせるためには以下の素材を導入する必要があります。
+[SampleProject](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/SampleProject/)以下のファイルをRPGツクールMZの新規プロジェクトに上書きすることでイベントやプラグインの設定内容などを確認いただくことが可能です。  
+ただし、テストプレイの実行など、ゲームとして動作させる場合には以下の手順で追加素材を導入する必要があります。
 
-### システム素材
+### システム画像の導入手順
 
-* Jackalope様
-    * [白黒ウィンドウ素材](https://tm.lucky-duet.com/viewtopic.php?t=5263)
-        1. ダウンロードした画像ファイルを `Windows2.png` にリネームする。
-        2. `img/system/` 直下に配置する。
+* 白黒ウィンドウ素材（jackalope様）
+    1. [白黒ウィンドウ素材](https://tm.lucky-duet.com/viewtopic.php?t=5263)をダウンロードする。
+    2. ダウンロードした `Window.png` を `Windows2.png` にリネームする。
+    3. `Windows2.png` を `img/system/` 直下に配置する。
 
-* sirloin_ryo様
-    * [紙風のシステムウィンドウ素材](https://tm.lucky-duet.com/viewtopic.php?f=14&t=7530)
-        1. ダウンロードした画像ファイルを `Windows3.png` にリネームする。
-        2. `img/system/` 直下に配置する。
+* 紙風のシステムウィンドウ素材（sirloin_ryo様）
+    1. [紙風のシステムウィンドウ素材](https://tm.lucky-duet.com/viewtopic.php?f=14&t=7530)をダウンロードする。
+    2. ダウンロードした `Window.png` を `Windows3.png` にリネームする。
+    3. `Windows3.png` を `img/system/` 直下に配置する。
 
-### プラグイン素材
+### プラグインの導入手順
 
-* トリアコンタン様 [[Blog](https://triacontane.blogspot.jp/)] [[Twitter](https://twitter.com/triacontane/)] [[GitHub](https://github.com/triacontane/)]
-    * PluginCommonBase
-        1. RPGツクールMZのインストールフォルダ配下の `dlc/BasicResources/plugins/official/PluginCommonBase.js` を　`js/plugins` 直下に配置する。
-        2. RPGツクールMZを起動し、プラグインリストに登録する。
-    * [イベントラベルプラグイン](https://github.com/triacontane/RPGMakerMV/tree/mz_master/EventLabel.js)
-        1. ダウンロードした `EventLabel.js` を `js/plugins` 直下に配置する。
-        2. RPGツクールMZを起動し、プラグインリストに登録する。
-    * [フキダシウィンドウプラグイン](https://github.com/triacontane/RPGMakerMV/tree/mz_master/MessageWindowPopup.js)
-        1. ダウンロードした `MessageWindowPopup.js` を `js/plugins` 直下に配置する。
-        2. RPGツクールMZを起動し、プラグインリストに登録する。
+* PluginCommonBase
+    * RPGツクールMZのインストールフォルダ配下の `dlc/BasicResources/plugins/official/PluginCommonBase.js` を　`js/plugins` 直下にコピペする。
+
+* イベントラベルプラグイン（トリアコンタン様）
+    1. [イベントラベルプラグイン](https://github.com/triacontane/RPGMakerMV/tree/mz_master/EventLabel.js)をダウンロードする。
+    2. ダウンロードした `EventLabel.js` を `js/plugins` 直下に配置する。
+
+* フキダシウィンドウプラグイン（トリアコンタン様）
+    1. [フキダシウィンドウプラグイン](https://github.com/triacontane/RPGMakerMV/tree/mz_master/MessageWindowPopup.js)をダウンロードする。
+    2. ダウンロードした `MessageWindowPopup.js` を `js/plugins` 直下に配置する。
