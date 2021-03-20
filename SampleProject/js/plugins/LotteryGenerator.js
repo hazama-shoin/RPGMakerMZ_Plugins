@@ -7,6 +7,7 @@
 // http://opensource.org/licenses/mit-license.php
 // ----------------------------------------------------------------------------
 // Version
+// 1.0.1 2021/03/21 排出個数に下限を設定
 // 1.0.0 2021/03/20 初版
 // ----------------------------------------------------------------------------
 // [Twitter]: https://twitter.com/maguros3/
@@ -110,8 +111,9 @@
  * @param Weight
  * @text 排出個数
  * @desc レアリティに対応する排出個数です。
- * @default 0
+ * @default 1
  * @type number
+ * @min 1
  * 
  */
 
@@ -137,6 +139,7 @@
  * @desc 数値を増やすと同一レアリティ内での排出率が上がります。
  * @default 1
  * @type number
+ * @min 1
  * 
  */
 
@@ -149,9 +152,9 @@
         const randomRange = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
         const total_weight = weight_table.reduce((x, y) => x + y);
-        var value = randomRange(1, total_weight);
-        var index = -1;
-        for (var i = 0; i < weight_table.length; ++i) {
+        let value = randomRange(1, total_weight);
+        let index = -1;
+        for (let i = 0; i < weight_table.length; ++i) {
             if (weight_table[i] >= value) {
                 index = i;
                 break;
@@ -162,7 +165,7 @@
     }
 
     PluginManagerEx.registerCommand(_script, 'START_LOTTERY', function(args) {
-        var rarity_list = [];
+        let rarity_list = [];
         if (args.is_confirmed_rarity) {
             if (args.is_higher_confirmed_rarity) {
                 const confirmed_rarity = _param.RarityList.find(x => x.RarityName === args.confirmed_rarity);
@@ -182,8 +185,8 @@
             return;
         }
 
-        var rarity_weight_table = [];
-        for (var i = 0; i < rarity_list.length; i++) {
+        let rarity_weight_table = [];
+        for (let i = 0; i < rarity_list.length; i++) {
             rarity_weight_table.push(rarity_list[i].Weight);
         }
 
@@ -208,8 +211,8 @@
             return;
         }
 
-        var prize_weight_table = [];
-        for (var i = 0; i < prize_list.length; i++) {
+        let prize_weight_table = [];
+        for (let i = 0; i < prize_list.length; i++) {
             prize_weight_table.push(prize_list[i].PickupWeight);
         }
 
@@ -221,7 +224,7 @@
             return;
         }
     
-        var result_prize = null;
+        let result_prize = null;
         const change_category = got_prize.meta.LTG_CAT;
         const change_id = got_prize.meta.LTG_ID;
         if (!change_category || !change_id) {

@@ -7,6 +7,7 @@
 // http://opensource.org/licenses/mit-license.php
 // ----------------------------------------------------------------------------
 // Version
+// 1.0.3 2021/03/21 軽微な修正
 // 1.0.2 2021/03/16 URLの間違いを修正
 // 1.0.1 2021/03/15 ヘルプ文言の修正およびリファクタリング
 // 1.0.0 2021/03/14 初版
@@ -107,7 +108,7 @@
     const _script = document.currentScript;
     const _param = PluginManagerEx.createParameter(_script);
 
-    var _position = null;
+    let _position = null;
 
     PluginManagerEx.registerCommand(_script, 'MOVE_NAMEBOX', function(args) {
         _position = args.Position;
@@ -121,7 +122,7 @@
     Window_NameBox.prototype.updatePlacement = function() {
         _Window_NameBox_updatePlacement.apply(this, arguments);
 
-        var position = _position;
+        let position = _position;
         if (!_param.UsePluginCommand) position = _param.Position;
 
         const messageWindow = this._messageWindow;

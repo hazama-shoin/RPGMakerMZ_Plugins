@@ -8,11 +8,11 @@
 
 | プラグイン名            | 最新Ver | 公開日        | 更新日        | DL                                                                                                                           |
 |:-----------------:|:-----:|:----------:|:----------:|:----------------------------------------------------------------------------------------------------------------------------:|
-| ウィンドウスキン切り替えプラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/WindowSkinSwitcher.js)     |
-| 名前ウィンドウの位置移動プラグイン | 1.0.2 | 2021/03/14 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/NameBoxPositionChanger.js) |
-| タイトル画面項目非表示化プラグイン | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/TitleItemEraser.js)        |
-| オプション項目非表示化プラグイン  | 1.0.1 | 2021/03/15 | 2021/03/16 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/OptionItemEraser.js)       |
-| 簡易ガチャプラグイン        | 1.0.0 | 2021/03/20 | -          | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/LotteryGenerator.js)       |
+| ウィンドウスキン切り替えプラグイン | 1.0.3 | 2021/03/14 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/WindowSkinSwitcher.js)     |
+| 名前ウィンドウの位置移動プラグイン | 1.0.3 | 2021/03/14 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/NameBoxPositionChanger.js) |
+| タイトル画面項目非表示化プラグイン | 1.0.2 | 2021/03/15 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/TitleItemEraser.js)        |
+| オプション項目非表示化プラグイン  | 1.0.2 | 2021/03/15 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/OptionItemEraser.js)       |
+| 簡易ガチャプラグイン        | 1.0.1 | 2021/03/20 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/LotteryGenerator.js)       |
 
 
 ## 利用規約

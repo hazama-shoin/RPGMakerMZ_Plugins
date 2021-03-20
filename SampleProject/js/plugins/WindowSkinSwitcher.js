@@ -7,6 +7,7 @@
 // http://opensource.org/licenses/mit-license.php
 // ----------------------------------------------------------------------------
 // Version
+// 1.0.3 2021/03/21 軽微な修正
 // 1.0.2 2021/03/16 URLの間違いを修正
 // 1.0.1 2021/03/15 ヘルプ文言の修正およびリファクタリング
 // 1.0.0 2021/03/14 初版
@@ -93,8 +94,8 @@
     const _script = document.currentScript;
     const _param = PluginManagerEx.createParameter(_script);
 
-    var _window_skin = null;
-    var _back_opacity = null;
+    let _window_skin = null;
+    let _back_opacity = null;
 
     function setDefault() {
         _window_skin = ImageManager.loadSystem('Window');
