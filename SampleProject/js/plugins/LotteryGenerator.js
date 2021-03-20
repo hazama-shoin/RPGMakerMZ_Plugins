@@ -7,6 +7,7 @@
 // http://opensource.org/licenses/mit-license.php
 // ----------------------------------------------------------------------------
 // Version
+// 1.0.2 2021/03/21 景品名が取得できない不具合を修正
 // 1.0.1 2021/03/21 排出個数に下限を設定
 // 1.0.0 2021/03/20 初版
 // ----------------------------------------------------------------------------
@@ -228,7 +229,7 @@
         const change_category = got_prize.meta.LTG_CAT;
         const change_id = got_prize.meta.LTG_ID;
         if (!change_category || !change_id) {
-            $gameParty.gainItem(got_prize, 1);
+            result_prize = got_prize;
         }
         else {
             switch (change_category) {
