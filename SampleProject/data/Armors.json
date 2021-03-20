@@ -1,0 +1,9 @@
+[
+null,
+{"id":1,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"----- 鎧 -----","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":2,"atypeId":1,"description":"天日干しのしすぎで風化が始まってしまった鎧。\n趣ある見た目だが防具としては使い物にならない。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"ひび割れた鎧","note":"","params":[0,0,0,1,0,0,0,0],"price":1},
+{"id":3,"atypeId":1,"description":"どんな防具屋でも扱っている普通の鎧。\nローブより安いので初心者魔法職にも愛用されている。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"普通の鎧","note":"","params":[0,0,0,10,0,0,0,0],"price":500},
+{"id":4,"atypeId":1,"description":"タンク職に愛好される非常に頑丈な鎧。\n並の攻撃では傷一つ付かないが魔法には弱い。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"頑丈な鎧","note":"","params":[0,0,0,100,0,10,0,0],"price":5000},
+{"id":5,"atypeId":1,"description":"世界で最も硬い鉱石で作られた鎧。\n物理攻撃だけでなく魔法攻撃まで防ぐ最強の鎧。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"最高硬度の鎧","note":"","params":[0,0,0,500,0,500,0,0],"price":50000},
+{"id":6,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
+]
