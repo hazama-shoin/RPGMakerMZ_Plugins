@@ -17,7 +17,7 @@
 
 ## 利用規約
 
-上記「プラグイン一覧」に含まれるプラグインは全て[MITライセンス](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/LICENSE.ja.txt)です。  
+上記「プラグイン一覧」に含まれるプラグインは全て[MITライセンス](https://github.com/maguros/RPGMakerMZ_Plugins/blob/master/LICENSE.ja.md)です。  
 商用/非商用問わず報告なしで自由にご利用いただけます。
 
 
