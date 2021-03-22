@@ -13,6 +13,7 @@
 | タイトル画面項目非表示化プラグイン | 1.0.2 | 2021/03/15 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/TitleItemEraser.js)        |
 | オプション項目非表示化プラグイン  | 1.0.2 | 2021/03/15 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/OptionItemEraser.js)       |
 | 簡易ガチャプラグイン        | 1.0.2 | 2021/03/20 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/LotteryGenerator.js)       |
+| 所持アイテム保存プラグイン     | 1.0.0 | 2021/03/22 | -          | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/HasItemsSaver.js) |
 
 
 ## 利用規約
@@ -50,3 +51,7 @@
 * フキダシウィンドウプラグイン（トリアコンタン様）
     1. [フキダシウィンドウプラグイン](https://github.com/triacontane/RPGMakerMV/tree/mz_master/MessageWindowPopup.js)をダウンロードする。
     2. ダウンロードした `MessageWindowPopup.js` を `js/plugins` 直下に配置する。
+
+* 選択肢拡張プラグイン（木星ペンギン様）
+    1. [選択肢拡張プラグイン](http://woodpenguin.web.fc2.com/MV_Plugin/MPP_ChoiceEX.html)をダウンロードする。
+    2. ダウンロードした `MPP_ChoiceEX.js` を `js/plugins` 直下に配置する。

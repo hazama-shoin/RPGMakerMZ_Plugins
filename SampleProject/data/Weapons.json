@@ -5,5 +5,9 @@ null,
 {"id":3,"animationId":0,"description":"どんな武器屋でも扱っている普通の剣。\n安価で扱いやすく初心者冒険者たちに人気がある。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"普通の剣","note":"","params":[0,0,10,0,0,0,0,0],"price":500,"wtypeId":0},
 {"id":4,"animationId":0,"description":"広告で鉄が斬れると豪語されている剣。\n優れた剣ではあるが鉄が斬れるかどうかは使い手次第。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"斬鉄剣","note":"","params":[0,0,100,0,0,0,0,0],"price":5000,"wtypeId":2},
 {"id":5,"animationId":0,"description":"勇者も愛用していた持つだけで最強になれる魔法の剣。\n魔王すら一刀両断にしたと伝えられている。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"最強の剣","note":"","params":[0,0,500,0,0,0,0,0],"price":50000,"wtypeId":2},
-{"id":6,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}
+{"id":6,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":7,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"----- 呪物 -----","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":8,"animationId":0,"description":"サンプルゴッデスを模した等身大人形。\nデカくて邪魔だが捨てることはできない。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":121,"name":"女神の等身大フィギュア","note":"","params":[0,0,0,0,500,0,0,0],"price":0,"wtypeId":6},
+{"id":9,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":10,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}
 ]
