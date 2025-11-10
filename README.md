@@ -1,16 +1,15 @@
 # RPGツクールMZ用プラグイン
 
 自作ゲーム用に作ったプラグインのうち、汎用的に使えそうなものを公開しています。  
-また、[PLiCyで限定公開中のサンプルゲーム](https://plicy.net/GamePlay/216567)にて、プラグインの紹介および動作イメージをご覧いただけます。
+また、以下リンク先で公開しているサンプルゲームにて、プラグインの紹介および動作イメージをご覧いただけます。
 
-サンプルゲームのパスワードは「**tkoollove**」です。  
-ユーザー名の入力も求められた場合は、ユーザー名は入力せずにパスワードのみ入力してください。
+[サンプルゲーム](https://sample-game.hazama-shoin.com/)
 
 ## プラグイン一覧
 
 |            プラグイン名            | 最新Ver |   公開日   |   更新日   |                                                              DL                                                              |
 | :--------------------------------: | :-----: | :--------: | :--------: | :--------------------------------------------------------------------------------------------------------------------------: |
-| ウィンドウスキン切り替えプラグイン |  1.0.3  | 2021/03/14 | 2021/03/21 |   [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/WindowSkinSwitcher.js)   |
+| ウィンドウスキン切り替えプラグイン |  1.0.4  | 2021/03/14 | 2025/11/10 |   [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/WindowSkinSwitcher.js)   |
 | 名前ウィンドウの位置移動プラグイン |  1.0.3  | 2021/03/14 | 2021/03/21 | [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/NameBoxPositionChanger.js) |
 | タイトル画面項目非表示化プラグイン |  1.0.2  | 2021/03/15 | 2021/03/21 |    [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/TitleItemEraser.js)     |
 |  オプション項目非表示化プラグイン  |  1.0.2  | 2021/03/15 | 2021/03/21 |    [DL](https://raw.githubusercontent.com/maguros/RPGMakerMZ_Plugins/master/SampleProject/js/plugins/OptionItemEraser.js)    |
