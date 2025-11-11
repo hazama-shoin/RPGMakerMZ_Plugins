@@ -13,6 +13,7 @@ export default defineConfig([
         $gameMap: "readonly",
         $gamePlayer: "readonly",
         $gameSystem: "readonly",
+        Game_Player: "readonly",
         Game_System: "readonly",
         ImageManager: "readonly",
         PluginManagerEx: "readonly",
