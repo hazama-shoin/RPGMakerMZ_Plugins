@@ -10,18 +10,29 @@ export default defineConfig([
     languageOptions: {
       globals: {
         ...globals.browser,
+        $dataArmors: "readonly",
+        $dataItems: "readonly",
+        $dataSystem: "readonly",
+        $dataWeapons: "readonly",
         $gameMap: "readonly",
+        $gameMessage: "readonly",
+        $gameParty: "readonly",
         $gamePlayer: "readonly",
+        $gameSwitches: "readonly",
         $gameSystem: "readonly",
+        $gameVariables: "readonly",
         Game_Player: "readonly",
         Game_System: "readonly",
         ImageManager: "readonly",
         PluginManagerEx: "readonly",
+        Scene_Options: "readonly",
         Scene_Title: "readonly",
         SceneManager: "readonly",
         Window_Base: "readonly",
         Window_Message: "readonly",
-        Window_NameBox: "readonly"
+        Window_NameBox: "readonly",
+        Window_Options: "readonly",
+        Window_TitleCommand: "readonly"
       }
     }
   },
