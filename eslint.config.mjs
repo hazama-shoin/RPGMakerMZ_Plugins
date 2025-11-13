@@ -37,6 +37,8 @@ export default defineConfig([
         Window_Base: "readonly",
         Window_Message: "readonly",
         Window_NameBox: "readonly",
+        Window_NameEdit: "readonly",
+        Window_NameInput: "readonly",
         Window_Options: "readonly",
         Window_TitleCommand: "readonly"
       }
