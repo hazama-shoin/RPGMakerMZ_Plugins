@@ -21,6 +21,8 @@ export default defineConfig([
         $gameSwitches: "readonly",
         $gameSystem: "readonly",
         $gameVariables: "readonly",
+        Game_Event: "readonly",
+        Game_Map: "readonly",
         Game_Player: "readonly",
         Game_System: "readonly",
         Graphics: "readonly",
