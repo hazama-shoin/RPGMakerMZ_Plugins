@@ -36,6 +36,7 @@ export default defineConfig([
         Scene_Options: "readonly",
         Scene_Title: "readonly",
         SceneManager: "readonly",
+        Sprite_Character: "readonly",
         TextManager: "readonly",
         Window_Base: "readonly",
         Window_Message: "readonly",
