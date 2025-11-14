@@ -12,6 +12,7 @@ export default defineConfig([
         ...globals.browser,
         $dataArmors: "readonly",
         $dataItems: "readonly",
+        $dataMap: "readonly",
         $dataSystem: "readonly",
         $dataWeapons: "readonly",
         $gameMap: "readonly",
